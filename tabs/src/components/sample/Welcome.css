@@ -1,0 +1,221 @@
+.text {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.signIn{
+  float: right;
+  width: max-content;
+}
+
+.voted{
+  position: absolute;
+padding: 4%;
+  position: absolute;
+border-radius: 4em;
+background-color: rgb(0,0,0,0);
+  top:-8%;
+  left: -2%;
+  width: 94%;
+  height: 78%;
+  text-align: center;
+  vertical-align: middle;
+  margin: 5%;
+  font-size: 1.5rem;
+  opacity: 1;
+  z-index: 1;
+}
+
+.vote{
+    position: absolute;
+  padding: 4%;
+    position: absolute;
+  border-radius: 4em;
+  background-color: rgb(0,0,0,0);
+    top:-8%;
+    left: -2%;
+    width: 94%;
+    height: 78%;
+    text-align: center;
+    vertical-align: middle;
+    margin: 5%;
+    font-size: 1.5rem;
+    opacity: 0;
+    z-index: 1;
+}
+.no-text{
+  display: none;
+}
+
+.image{
+  margin-top: -2%;
+  vertical-align: middle;
+  opacity: 1;
+}
+.noimage{
+  opacity: 0;
+}
+
+@media screen and (max-width: 772px) {
+    div.vote{ 
+        position: absolute;
+        padding: 4%;
+          position: absolute;
+        border-radius: 4em;
+        background-color: rgb(0,0,0,0);
+          top:-15%;
+          left: -1.5%;
+          width: 80%;
+          height: 80%;
+          text-align: center;
+          vertical-align: middle;
+          margin: 5%;
+          font-size: 1.2rem;
+          opacity: 0;
+          z-index: 1;
+    }
+    .image{
+      margin-top: -5%;
+    }
+}
+
+
+@media screen and (max-width: 1420px) and (min-width: 772px) {
+    div.vote{ 
+        position: absolute;
+        padding: 3%;
+          position: absolute;
+        color: rgb(0, 0, 0);
+        border-radius: 4em;
+          background-color: rgb(0,0,0,0);
+          top:-10%;
+          left: -0.5%;
+          width: 90%;
+          height: 80%;
+          text-align: center;
+          vertical-align: middle;
+          margin: 5%;
+          font-size: 1.2rem;
+          opacity: 0;
+          z-index: 1;
+    }
+    .image{
+      margin-top: -5%;
+    }
+
+}
+
+.voted-image{
+  opacity: 0.25;
+}
+
+.voted-text{
+  opacity: 0.25;
+}
+
+.voted-box-inner{
+  background-color: rgb(0,0,0,0.75);
+  opacity: 1;
+}
+
+.box-inner{
+    border-radius: 4em;
+    padding: 2%;
+}
+.custom-card:hover .vote{
+    opacity: 1;
+}
+.custom-card:hover .box{
+    opacity: 1;
+}
+.custom-card:hover .box-inner> img{
+    opacity: 0.25;
+}
+
+.custom-card:hover .box-inner > h3{
+    opacity: 0.25;
+}
+.custom-card:hover .box-inner{
+    background-color: rgb(0,0,0,0.75);
+    opacity: 1;
+}
+
+.box {   
+    position: relative;
+  padding: 0;
+  background: white;
+  border-radius: 4em;
+  color: black;
+}
+
+.team {
+  border: 2px solid #f64346;
+  margin-left: 2%;
+  width: 18%;
+  border-style: groove;
+}
+
+.name {
+    position: absolute;
+  vertical-align: middle;
+  margin-top: 2.5%;
+  margin-left: 5%;
+  display: inline;
+  font-size: xx-large;
+  z-index: 0;
+}
+
+.custom-card {
+    position: relative;
+  padding: 0.8%;
+}
+
+.nocustom-card {
+    position: relative;
+  padding: 0.8%;
+
+}
+.skip {
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.end-text {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.end-text-2 {
+  text-align: center;
+  font-size: 0.8em;
+  color: #d0d0d0;
+}
+
+.question {
+  padding-top: 1%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+
+@media screen and (max-width: 1450px) and (min-width: 768px) {
+  .name {
+    position: absolute;
+    vertical-align: middle;
+    margin-top: 2.5%;
+    margin-left: 5%;
+    display: inline;
+  }
+}
+ 
+
+@media screen and (max-width: 1450px) {
+    .name{
+        font-size: x-large;
+    }
+}
